@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-    int watermelon;
-    scanf("%d", &watermelon);
-    if(watermelon% 2 == 0 && watermelon >= 4){
+    int melon;
+    scanf("%d", &melon);
+    if(melon % 2 == 0 && melon >= 4){
         printf("Yes");
     } else{
         printf("No");
